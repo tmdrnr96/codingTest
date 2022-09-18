@@ -14,8 +14,8 @@ public class TEST_16 {
 	인덱스 i, j에 대해 i ≠ j이면 arr[i] ≠ arr[j] 입니다.
 	*/
 	public static void main(String[] args) {
-		int[] n = {4,3,2,1};
-		int[] result = solution(n);
+		int[] arr = {4,3,2,1};
+		int[] result = solution(arr);
 
 		System.out.println(Arrays.toString(result));
 	}

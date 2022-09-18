@@ -15,8 +15,8 @@ public class TEST_09 {
 	문자열 s는 알파벳으로만 이루어져 있습니다.
 	*/
 	public static void main(String[] args) {
-		String n = "pPoooyY";
-		boolean result = solution(n);
+		String str = "pPoooyY";
+		boolean result = solution(str);
 
 		System.out.println(result);
 	}

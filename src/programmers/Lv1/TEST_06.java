@@ -11,8 +11,8 @@ public class TEST_06 {
 	n은 10,000,000,000이하인 자연수입니다.
 	*/
 	public static void main(String[] args) {
-		long n = 12345;
-		int[] result = solution(n);
+		long arr = 12345;
+		int[] result = solution(arr);
 
 		System.out.println(Arrays.toString(result));
 	}

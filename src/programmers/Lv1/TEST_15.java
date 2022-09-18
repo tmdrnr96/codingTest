@@ -12,8 +12,8 @@ public class TEST_15 {
 	"Kim"은 반드시 seoul 안에 포함되어 있습니다.
 	*/
 	public static void main(String[] args) {
-		String[] str = {"Jane","Kim"};
-		String result = solution(str);
+		String[] arrStr = {"Jane","Kim"};
+		String result = solution(arrStr);
 
 		System.out.println(result);
 	}

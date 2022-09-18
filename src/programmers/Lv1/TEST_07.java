@@ -13,8 +13,8 @@ public class TEST_07 {
 	*/
 
 	public static void main(String[] args) {
-		int[] n = {1,2,3,4};
-		double result = solution(n);
+		int[] arr = {1,2,3,4};
+		double result = solution(arr);
 
 		System.out.println(result);
 	}
