@@ -17,9 +17,17 @@ public class TEST_20 {
 	}
 	public static String solution(String s) {
 		String answer = "";
+		String[] strArr = new String[s.length()];
+		int idx = s.length()/2;
 
-
-
+		for(int i = 0; i < strArr.length; i++){
+			strArr[i] = String.valueOf(s.charAt(i));
+		}
+		if(s.length()%2 == 0){
+			answer = strArr[idx-1] + strArr[idx];
+		}else{
+			answer = strArr[idx];
+		}
 		return answer;
 	}
 }
